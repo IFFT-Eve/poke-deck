@@ -1,58 +1,58 @@
 # Poke Deck
 
-Poke Deck là ứng dụng Next.js cho phép bạn khám phá danh sách các Pokémon theo từng loại (type) và phân trang để xem nhiều Pokémon hơn. Dữ liệu được lấy trực tiếp từ [PokeAPI](https://pokeapi.co/).
+Poke Deck is a Next.js application that lets you explore a list of Pokémon by type and paginate to view more Pokémon. Data is fetched directly from [PokeAPI](https://pokeapi.co/).
 
-## Tính năng
+## Features
 
-- Lọc Pokémon theo loại (type).
-- Phân trang danh sách Pokémon.
-- Xem chi tiết thông tin từng Pokémon.
-- Giao diện hiện đại sử dụng [Tailwind CSS](https://tailwindcss.com/).
-- Sử dụng App Router của Next.js với trang chính ở `app/page.tsx` và layout tổng ở `app/layout.tsx`.
-- Tổ chức component trong thư mục `components`.
-- Fetch dữ liệu kết hợp giữa Client Component và Server Component.
+- Filter Pokémon by type.
+- Paginate the Pokémon list.
+- View detailed information for each Pokémon.
+- Modern UI using [Tailwind CSS](https://tailwindcss.com/).
+- Uses Next.js App Router with the main page at `app/page.tsx` and global layout at `app/layout.tsx`.
+- Components are organized in the `components` folder.
+- Data fetching combines Client Components and Server Components.
 
-## Cài đặt & chạy ứng dụng
+## Installation & Usage
 
-1. Cài đặt dependencies:
+1. Install dependencies:
 
    ```bash
    npm install
    ```
 
-2. Khởi chạy server phát triển:
+2. Start the development server:
 
    ```bash
    npm run dev
    ```
 
-3. Truy cập [http://localhost:3000](http://localhost:3000) trên trình duyệt để sử dụng ứng dụng.
+3. Visit [http://localhost:3000](http://localhost:3000) in your browser to use the app.
 
-## Cấu trúc dự án
+## Project Structure
 
-- `app/page.tsx`: Trang chính hiển thị danh sách Pokémon.
-- `app/layout.tsx`: Layout tổng cho toàn bộ ứng dụng.
-- `components/`: Chứa các component tái sử dụng.
-- Sử dụng App Router của Next.js.
+- `app/page.tsx`: Main page displaying the Pokémon list.
+- `app/layout.tsx`: Global layout for the entire app.
+- `components/`: Contains reusable components.
+- Uses Next.js App Router.
 
-## Công nghệ sử dụng
+## Technologies Used
 
 - [Next.js](https://nextjs.org/) (App Router)
 - [Tailwind CSS](https://tailwindcss.com/)
-- [PokeAPI](https://pokeapi.co/) (nguồn dữ liệu Pokémon)
+- [PokeAPI](https://pokeapi.co/) (Pokémon data source)
 
-## Tài liệu tham khảo
+## References
 
 - [Next.js Documentation](https://nextjs.org/docs)
 - [Learn Next.js](https://nextjs.org/learn)
 - [PokeAPI Documentation](https://pokeapi.co/docs/v2)
 
-## Đóng góp
+## Contribution
 
-Mọi ý kiến đóng góp hoặc báo lỗi xin gửi về [GitHub repository](https://github.com/vercel/next.js).
+For feedback or bug reports, please visit the [GitHub repository](https://github.com/vercel/next.js).
 
-## Triển khai
+## Deployment
 
-Bạn có thể triển khai ứng dụng dễ dàng trên [Vercel](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme).
+You can easily deploy the app on [Vercel](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme).
 
-Tham khảo [tài liệu triển khai Next.js](https://nextjs.org/docs/app/building-your-application/deploying) để biết thêm chi tiết.
+See the [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
